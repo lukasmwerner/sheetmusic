@@ -6,23 +6,17 @@
 //
 
 import Foundation
-import AVKit
+import JPSVolumeButtonHandler
 
-var outputVolumeObserve: NSKeyValueObservation?
-let audioSession = AVAudioSession.sharedInstance()
 
-func listenVolumeButton() {
-   do {
-    try audioSession.setActive(true)
-   } catch {
-    print("some error")
-   }
-   audioSession.addObserver(self, forKeyPath: "outputVolume", options: NSKeyValueObservingOptions.new, context: nil)
+func volumeListener(handler: @escaping (Float)->Void) {
+    let handler = JPSVolumeButtonHandler()
+    handler.upBlock = {
+        print("volume up")
+    }
+    handler.downBlock = {
+        print("volume down")
+    }
 }
 
 
-override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-  if keyPath == "outputVolume" {
-    print("Hello")
-  }
-}

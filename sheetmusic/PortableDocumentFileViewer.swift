@@ -11,10 +11,11 @@ import PDFKit
 struct PortableDocumentFileViewer: UIViewRepresentable {
     
     var url: URL
+    var page: Int
     
-    init(_ pdfUrl: URL?) {
+    init(_ pdfUrl: URL?, page: Int) {
         self.url = pdfUrl ?? Bundle.main.url(forResource: "sheetmusic", withExtension: "pdf")!
-        
+        self.page = page
     }
     
     func makeUIView(context: Context) -> PDFView {
@@ -25,14 +26,13 @@ struct PortableDocumentFileViewer: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: PDFView, context: Context) {
-        //todo
-        print(self)
+        uiView.document = PDFDocument(url: url)
     }
 
 }
 
 struct PortableDocumentFileViewer_Previews: PreviewProvider {
     static var previews: some View {
-        PortableDocumentFileViewer(Bundle.main.url(forResource: "sheetmusic", withExtension: "pdf")!)
+        PortableDocumentFileViewer(Bundle.main.url(forResource: "sheetmusic", withExtension: "pdf")!, page: 0)
     }
 }

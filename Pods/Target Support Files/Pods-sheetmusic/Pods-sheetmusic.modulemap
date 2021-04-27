@@ -1,0 +1,6 @@
+framework module Pods_sheetmusic {
+  umbrella header "Pods-sheetmusic-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -29,8 +29,15 @@ struct ContentView: View {
                         print(error.localizedDescription)
                     }
                 })
+                Button(action:{
+                    volumeListener(handler: { value in
+                        print(value)
+                    })
+                }) {
+                    Text("audioActivate!")
+                }
             }
-            PortableDocumentFileViewer(self.openFile)
+            PortableDocumentFileViewer(self.openFile, page: 0)
         }
     }
 }

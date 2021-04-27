@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F638F4CC1C3864C8ABC96E2 /* Pods_sheetmusic_sheetmusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6368C10C276767F46CC6109E /* Pods_sheetmusic_sheetmusicUITests.framework */; };
+		6839693E0698C2C9C573EDBF /* Pods_sheetmusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC464FEFB275C921F9C9566 /* Pods_sheetmusic.framework */; };
 		80E9C3EC2637CCA600139548 /* sheetmusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C3EB2637CCA600139548 /* sheetmusicApp.swift */; };
 		80E9C3EE2637CCA600139548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C3ED2637CCA600139548 /* ContentView.swift */; };
 		80E9C3F02637CCA700139548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E9C3EF2637CCA700139548 /* Assets.xcassets */; };
@@ -16,6 +18,7 @@
 		80E9C41A2637D04500139548 /* PortableDocumentFileViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C4192637D04500139548 /* PortableDocumentFileViewer.swift */; };
 		80E9C4242637D2F300139548 /* sheetmusic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 80E9C4232637D2F300139548 /* sheetmusic.pdf */; };
 		80E9C4292637E8F800139548 /* VolumeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C4282637E8F800139548 /* VolumeListener.swift */; };
+		C06A54BFCE7C2458C6066C2D /* Pods_sheetmusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A504BCBB6B16BDB8DB9456 /* Pods_sheetmusicTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D927BE7826184970E48234 /* Pods-sheetmusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sheetmusic.release.xcconfig"; path = "Target Support Files/Pods-sheetmusic/Pods-sheetmusic.release.xcconfig"; sourceTree = "<group>"; };
+		2F1D43041C6C6942AEDE9687 /* Pods-sheetmusic-sheetmusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sheetmusic-sheetmusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-sheetmusic-sheetmusicUITests/Pods-sheetmusic-sheetmusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60D6AECE24D159EA31A3F348 /* Pods-sheetmusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sheetmusicTests.debug.xcconfig"; path = "Target Support Files/Pods-sheetmusicTests/Pods-sheetmusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6368C10C276767F46CC6109E /* Pods_sheetmusic_sheetmusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sheetmusic_sheetmusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E9C3E82637CCA600139548 /* sheetmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sheetmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E9C3EB2637CCA600139548 /* sheetmusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetmusicApp.swift; sourceTree = "<group>"; };
 		80E9C3ED2637CCA600139548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		80E9C4192637D04500139548 /* PortableDocumentFileViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortableDocumentFileViewer.swift; sourceTree = "<group>"; };
 		80E9C4232637D2F300139548 /* sheetmusic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sheetmusic.pdf; path = ../../../../Downloads/sheetmusic.pdf; sourceTree = "<group>"; };
 		80E9C4282637E8F800139548 /* VolumeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeListener.swift; sourceTree = "<group>"; };
+		814A5A28526720C86B5A2A4D /* Pods-sheetmusic-sheetmusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sheetmusic-sheetmusicUITests.release.xcconfig"; path = "Target Support Files/Pods-sheetmusic-sheetmusicUITests/Pods-sheetmusic-sheetmusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82A504BCBB6B16BDB8DB9456 /* Pods_sheetmusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sheetmusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D88C1EAE63AB0A9FF70186B /* Pods-sheetmusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sheetmusicTests.release.xcconfig"; path = "Target Support Files/Pods-sheetmusicTests/Pods-sheetmusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFC464FEFB275C921F9C9566 /* Pods_sheetmusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sheetmusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676B5BA3166DB255DA0128F /* Pods-sheetmusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sheetmusic.debug.xcconfig"; path = "Target Support Files/Pods-sheetmusic/Pods-sheetmusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6839693E0698C2C9C573EDBF /* Pods_sheetmusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06A54BFCE7C2458C6066C2D /* Pods_sheetmusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F638F4CC1C3864C8ABC96E2 /* Pods_sheetmusic_sheetmusicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				80E9C3FC2637CCA700139548 /* sheetmusicTests */,
 				80E9C4072637CCA700139548 /* sheetmusicUITests */,
 				80E9C3E92637CCA600139548 /* Products */,
+				FF9A3FA10994207BEB5F93CB /* Pods */,
+				C9CE09AE6FEDF2140EF45D38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +156,30 @@
 			path = sheetmusicUITests;
 			sourceTree = "<group>";
 		};
+		C9CE09AE6FEDF2140EF45D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC464FEFB275C921F9C9566 /* Pods_sheetmusic.framework */,
+				6368C10C276767F46CC6109E /* Pods_sheetmusic_sheetmusicUITests.framework */,
+				82A504BCBB6B16BDB8DB9456 /* Pods_sheetmusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9A3FA10994207BEB5F93CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D676B5BA3166DB255DA0128F /* Pods-sheetmusic.debug.xcconfig */,
+				01D927BE7826184970E48234 /* Pods-sheetmusic.release.xcconfig */,
+				2F1D43041C6C6942AEDE9687 /* Pods-sheetmusic-sheetmusicUITests.debug.xcconfig */,
+				814A5A28526720C86B5A2A4D /* Pods-sheetmusic-sheetmusicUITests.release.xcconfig */,
+				60D6AECE24D159EA31A3F348 /* Pods-sheetmusicTests.debug.xcconfig */,
+				8D88C1EAE63AB0A9FF70186B /* Pods-sheetmusicTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E9C40D2637CCA700139548 /* Build configuration list for PBXNativeTarget "sheetmusic" */;
 			buildPhases = (
+				4BBD4C058637BA27ACB3460B /* [CP] Check Pods Manifest.lock */,
 				80E9C3E42637CCA600139548 /* Sources */,
 				80E9C3E52637CCA600139548 /* Frameworks */,
 				80E9C3E62637CCA600139548 /* Resources */,
+				7B2BD8E284FDD84F4FA80836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E9C4102637CCA700139548 /* Build configuration list for PBXNativeTarget "sheetmusicTests" */;
 			buildPhases = (
+				13113C358F1E844D41C2DCDD /* [CP] Check Pods Manifest.lock */,
 				80E9C3F52637CCA700139548 /* Sources */,
 				80E9C3F62637CCA700139548 /* Frameworks */,
 				80E9C3F72637CCA700139548 /* Resources */,
@@ -181,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E9C4132637CCA700139548 /* Build configuration list for PBXNativeTarget "sheetmusicUITests" */;
 			buildPhases = (
+				F142F17EFC41C174D5EAB8D0 /* [CP] Check Pods Manifest.lock */,
 				80E9C4002637CCA700139548 /* Sources */,
 				80E9C4012637CCA700139548 /* Frameworks */,
 				80E9C4022637CCA700139548 /* Resources */,
+				89CDCC125D5F290921C9AC94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13113C358F1E844D41C2DCDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sheetmusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBD4C058637BA27ACB3460B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sheetmusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2BD8E284FDD84F4FA80836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sheetmusic/Pods-sheetmusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sheetmusic/Pods-sheetmusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sheetmusic/Pods-sheetmusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CDCC125D5F290921C9AC94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sheetmusic-sheetmusicUITests/Pods-sheetmusic-sheetmusicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sheetmusic-sheetmusicUITests/Pods-sheetmusic-sheetmusicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sheetmusic-sheetmusicUITests/Pods-sheetmusic-sheetmusicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F142F17EFC41C174D5EAB8D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sheetmusic-sheetmusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80E9C3E42637CCA600139548 /* Sources */ = {
@@ -426,6 +575,7 @@
 		};
 		80E9C40E2637CCA700139548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D676B5BA3166DB255DA0128F /* Pods-sheetmusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +598,7 @@
 		};
 		80E9C40F2637CCA700139548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D927BE7826184970E48234 /* Pods-sheetmusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,6 +621,7 @@
 		};
 		80E9C4112637CCA700139548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D6AECE24D159EA31A3F348 /* Pods-sheetmusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +644,7 @@
 		};
 		80E9C4122637CCA700139548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D88C1EAE63AB0A9FF70186B /* Pods-sheetmusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +667,7 @@
 		};
 		80E9C4142637CCA700139548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1D43041C6C6942AEDE9687 /* Pods-sheetmusic-sheetmusicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +688,7 @@
 		};
 		80E9C4152637CCA700139548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814A5A28526720C86B5A2A4D /* Pods-sheetmusic-sheetmusicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

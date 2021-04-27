@@ -13,6 +13,9 @@
 		80E9C3F32637CCA700139548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E9C3F22637CCA700139548 /* Preview Assets.xcassets */; };
 		80E9C3FE2637CCA700139548 /* sheetmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C3FD2637CCA700139548 /* sheetmusicTests.swift */; };
 		80E9C4092637CCA700139548 /* sheetmusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C4082637CCA700139548 /* sheetmusicUITests.swift */; };
+		80E9C41A2637D04500139548 /* PortableDocumentFileViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C4192637D04500139548 /* PortableDocumentFileViewer.swift */; };
+		80E9C4242637D2F300139548 /* sheetmusic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 80E9C4232637D2F300139548 /* sheetmusic.pdf */; };
+		80E9C4292637E8F800139548 /* VolumeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9C4282637E8F800139548 /* VolumeListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		80E9C4042637CCA700139548 /* sheetmusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sheetmusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E9C4082637CCA700139548 /* sheetmusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetmusicUITests.swift; sourceTree = "<group>"; };
 		80E9C40A2637CCA700139548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E9C4192637D04500139548 /* PortableDocumentFileViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortableDocumentFileViewer.swift; sourceTree = "<group>"; };
+		80E9C4232637D2F300139548 /* sheetmusic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sheetmusic.pdf; path = ../../../../Downloads/sheetmusic.pdf; sourceTree = "<group>"; };
+		80E9C4282637E8F800139548 /* VolumeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,14 @@
 		80E9C3EA2637CCA600139548 /* sheetmusic */ = {
 			isa = PBXGroup;
 			children = (
+				80E9C4232637D2F300139548 /* sheetmusic.pdf */,
 				80E9C3EB2637CCA600139548 /* sheetmusicApp.swift */,
 				80E9C3ED2637CCA600139548 /* ContentView.swift */,
 				80E9C3EF2637CCA700139548 /* Assets.xcassets */,
 				80E9C3F42637CCA700139548 /* Info.plist */,
 				80E9C3F12637CCA700139548 /* Preview Content */,
+				80E9C4192637D04500139548 /* PortableDocumentFileViewer.swift */,
+				80E9C4282637E8F800139548 /* VolumeListener.swift */,
 			);
 			path = sheetmusic;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			files = (
 				80E9C3F32637CCA700139548 /* Preview Assets.xcassets in Resources */,
 				80E9C3F02637CCA700139548 /* Assets.xcassets in Resources */,
+				80E9C4242637D2F300139548 /* sheetmusic.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E9C3EE2637CCA600139548 /* ContentView.swift in Sources */,
+				80E9C4292637E8F800139548 /* VolumeListener.swift in Sources */,
 				80E9C3EC2637CCA600139548 /* sheetmusicApp.swift in Sources */,
+				80E9C41A2637D04500139548 /* PortableDocumentFileViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
